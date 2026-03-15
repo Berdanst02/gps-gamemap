@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPS Map</title>
+  <style>
+    .poi-popup .mapboxgl-popup-content {
+      background: rgba(0,0,0,0.92);
+      border: 1px solid rgba(249,115,22,0.4);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: #fff;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+    .poi-popup .mapboxgl-popup-tip {
+      border-top-color: rgba(0,0,0,0.92);
+      border-bottom-color: rgba(0,0,0,0.92);
+    }
+    .poi-popup .mapboxgl-popup-close-button {
+      color: #666;
+      font-size: 16px;
+      padding: 4px 8px;
+    }
+    .poi-popup .mapboxgl-popup-close-button:hover { color: #fff; }
+  </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
